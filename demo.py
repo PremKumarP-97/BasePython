@@ -1,1 +1,10 @@
-print("Hi , Welcome to CI/CD pipeline")
+import json
+
+value={
+"name":prem,
+"age":24,
+"address": chennai
+}
+
+print(json.dumps(value))
+
